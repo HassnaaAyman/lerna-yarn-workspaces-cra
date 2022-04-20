@@ -4,6 +4,12 @@
  * @format
  */
 
+/**
+ * /* eslint-disable react-hooks/exhaustive-deps
+ *
+ * @format
+ */
+
 import { ChangeEvent, useEffect, useState } from 'react';
 import { OrdersData } from '@lucifer/infrastructure/interfaces/orders.interface';
 import { ActionsContainer, StyledTable } from './style';
