@@ -7,7 +7,10 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "start": "lerna exec --scope @lucifer/app -- yarn start"
+    "start": "lerna exec --scope @lucifer/app -- yarn start",
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean",
+    "build": "npx lerna bootstrap && npx lerna run build"
   },
   "workspaces": {
     "packages": [
