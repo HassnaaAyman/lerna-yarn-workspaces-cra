@@ -1,14 +1,10 @@
 /**
- * /* eslint-disable react-hooks/exhaustive-deps
+ *
  *
  * @format
  */
 
-/**
- * /* eslint-disable react-hooks/exhaustive-deps
- *
- * @format
- */
+/* eslint-disable react-hooks/exhaustive-deps */
 
 import { ChangeEvent, useEffect, useState } from 'react';
 import { OrdersData } from '@lucifer/infrastructure/interfaces/orders.interface';
