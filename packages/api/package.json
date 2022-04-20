@@ -1,0 +1,8 @@
+{
+  "name": "@lucifer/api",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@lucifer/components": "0.1.0"
+  }
+}

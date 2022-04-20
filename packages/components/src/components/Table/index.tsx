@@ -1,8 +1,8 @@
 /** @format */
 
-// import { OrdersData } from 'infrastructure/interfaces/orders.interface';
+import { OrdersData } from '@lucifer/infrastructure/interfaces/orders.interface';
 
-const Table = (props: { tableData: any }) => {
+const Table = (props: { tableData: OrdersData }) => {
   const { tableData } = props;
 
   const returnTableData = () => {
