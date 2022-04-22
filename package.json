@@ -10,12 +10,15 @@
     "start": "lerna exec --scope @lucifer/app -- yarn start",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
-    "build": "npx lerna bootstrap && npx lerna run build"
+    "build": "lerna exec --scope @lucifer/app -- yarn  build"
   },
   "workspaces": {
     "packages": [
       "packages/**"
     ]
+  },
+  "publishConfig": {
+    "registry": "http://localhost:3003"
   },
   "dependencies": {
     "antd": "^4.19.5",
